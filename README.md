@@ -3,18 +3,18 @@
 1. OS - Raspbian Buster
 2. Python >= 3.4
 3. Cmake
-2. Установленный openvino версии 2020.4 для raspbian.
-3. Intel Neural Compute Stick 2
-4. Веб-камера
-5. Библиотеки для питона (помимо тех, что устанавливаются с openvino):
-    6.1 PyQt5
-    6.2 Pandas
-    6.3 Numpy
-    6.4 Scipy
-    6.5 opencv-python
+4. Установленный openvino версии 2020.4 для raspbian.
+5. Intel Neural Compute Stick 2
+6. Веб-камера
+7. Библиотеки для питона (помимо тех, что устанавливаются с openvino):
+    1. PyQt5
+    2. Pandas
+    3. Numpy
+    4. Scipy
+    5. opencv-python
 
 #### Ссылки на необходимые компоненты
-OS: https://www.raspberrypi.org/downloads/raspberry-pi-os/
+OS: https://www.raspberrypi.org/downloads/raspberry-pi-os/    
 OPENVINO: https://download.01.org/opencv/2020/openvinotoolkit/2020.4/l_openvino_toolkit_runtime_raspbian_p_2020.4.287.tgz
 #### Установка Cmake
 ```
