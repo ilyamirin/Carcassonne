@@ -322,8 +322,8 @@ class Visualizer:
 
     def display_interactive_window(self, frame):
         window_name = 'Face Recognition Demo'  # Brandon
-        cv2.namedWindow(window_name, cv2.WND_PROP_FULLSCREEN) # Brandon
-        cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN) # Brandon
+        cv2.namedWindow(window_name, cv2.WINDOW_NORMAL) # Brandon
+        #cv2.setWindowProperty(window_name, cv2.WND_PROP_FULLSCREEN, cv2.WINDOW_FULLSCREEN) # Brandon
         color = (255, 255, 255)
         font = cv2.FONT_HERSHEY_SIMPLEX
         text_scale = 0.5
